@@ -1,0 +1,293 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --vermelho: hsl(0, 78%, 62%);
+  --ciano: hsl(180, 62%, 55%);
+  --laranja: hsl(34, 97%, 64%);
+  --azul: hsl(212, 86%, 64%);
+  --azul-muito-escuro: hsl(234, 12%, 34%);
+  --azul-acizentado: hsl(229, 6%, 66%);
+  --cinza-claro: hsl(0, 0%, 98%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* CELLPHONE */
+
+@media (min-width: 375px) {
+  body {
+    background-color: var(--cinza-claro);
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-title {
+    margin-top: 4rem;
+    margin-bottom: 0.1rem;
+    color: var(--azul-acizentado);
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .header-title-bold {
+    margin-bottom: 0.75rem;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  .header-p {
+    color: var(--azul-acizentado);
+    font-size: 13px;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 0 3rem;
+    max-width: 550px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 16rem;
+    height: 11rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--ciano);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-1 {
+    width: 16rem;
+    height: 11rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--vermelho);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-2 {
+    width: 16rem;
+    height: 11rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--laranja);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-3 {
+    width: 16rem;
+    height: 11rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--azul);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 1.25rem;
+    margin-left: 1.35rem;
+    opacity: 0.7;
+  }
+  .card-p {
+    font-size: 12px;
+    margin-top: 0.5rem;
+    margin-left: 1.35rem;
+    color: var(--azul-acizentado);
+  }
+}
+.img-1 {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 11.25rem;
+  margin-top: 0.75rem;
+}
+.img-2 {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 11.25rem;
+  margin-top: 0.75rem;
+}
+
+.img-3 {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 11.25rem;
+  margin-top: 0.75rem;
+}
+
+.img-4 {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 11.25rem;
+  margin-top: 0.75rem;
+}
+
+/* LAPTOP */
+
+@media (min-width: 1440px) {
+  body {
+    background-color: var(--cinza-claro);
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-title {
+    margin-top: 4rem;
+    margin-bottom: 0.1rem;
+    color: var(--azul-acizentado);
+    font-size: 45px;
+    font-weight: 200;
+  }
+  .header-title-bold {
+    margin-bottom: 0.75rem;
+    font-size: 45px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  .header-p {
+    color: var(--azul-acizentado);
+    font-size: 20px;
+    margin-bottom: 3rem;
+    text-align: center;
+    max-width: 780px;
+  
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card {
+    width: 22rem;
+    height: 15rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--ciano);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-1 {
+    width: 22rem;
+    height: 15rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--vermelho);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-2 {
+    width: 22rem;
+    height: 15rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--laranja);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-3 {
+    width: 22rem;
+    height: 15rem;
+    margin-bottom: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 4px solid var(--azul);
+    -webkit-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 7px 37px -9px rgba(0, 0, 0, 0.41);
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 27px;
+    margin-top: 1.25rem;
+    margin-left: 1.35rem;
+    opacity: 0.7;
+  }
+  .card-p {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    margin-left: 1.35rem;
+    color: var(--azul-acizentado);
+  }
+  .img-1 {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 16.25rem;
+    margin-top: 1.75rem;
+  }
+  .img-2 {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 16.25rem;
+    margin-top: 1.75rem;
+  }
+  .img-3 {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 16.25rem;
+    margin-top: 1.75rem;
+  }
+  .img-4 {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 16.25rem;
+    margin-top: 1.75rem;
+  }
+}
